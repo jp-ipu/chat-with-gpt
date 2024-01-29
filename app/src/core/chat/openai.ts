@@ -4,7 +4,7 @@ import SSE from "../utils/sse";
 import { OpenAIMessage, Parameters } from "./types";
 import { backend } from "../backend";
 
-export const defaultModel = 'gpt-4-1106-preview';
+export const defaultModel = 'gpt-3.5-turbo';
 export const titlesModel = 'gpt-3.5-turbo';
 
 export function isProxySupported() {
@@ -156,6 +156,8 @@ export async function createStreamingChatCompletion(messages: OpenAIMessage[], p
 
 export const maxTokensByModel = {
     "gpt-4-1106-preview": 128000,
+    "gpt-4-0125-preview": 128000,
+    "gpt-4-turbo-preview": 128000,
     "gpt-4-vision-preview": 128000,
     "gpt-4": 8192,
     "gpt-4-0314": 8192,
@@ -166,6 +168,7 @@ export const maxTokensByModel = {
     "gpt-3.5-turbo": 4096,
     "gpt-3.5-turbo-0613": 4096,
     "gpt-3.5-turbo-1106": 16384,
+    "gpt-3.5-turbo-0125": 16384,
     "gpt-3.5-turbo-16k": 16384,
     "gpt-3.5-turbo-16k-0613": 16384,
 };

@@ -29,7 +29,7 @@ export const parameterOptions: OptionGroup = {
                 ),
                 options: [
                     {
-                        label: "GPT-3.5 Turbo",
+                        label: "GPT-3.5 Turbo (default)",
                         value: "gpt-3.5-turbo",
                     },
                     {
@@ -37,8 +37,12 @@ export const parameterOptions: OptionGroup = {
                         value: "gpt-3.5-turbo-0613",
                     },
                     {
-                        label: "GPT-3.5 Turbo Snapshot (November 6, 2023) (default)",
+                        label: "GPT-3.5 Turbo Snapshot (November 6, 2023)",
                         value: "gpt-3.5-turbo-1106",
+                    },
+                    {
+                        label: "GPT-3.5 Turbo Snapshot (January 25, 2024)",
+                        value: "gpt-3.5-turbo-0125",
                     },
                     {
                         label: "GPT-3.5 Turbo 16k",
@@ -49,8 +53,16 @@ export const parameterOptions: OptionGroup = {
                         value: "gpt-3.5-turbo-16k-0613",
                     },
                     {
-                        label: "GPT-4 Snapshot (November 6, 2023)",
+                        label: "GPT-4 Turbo Snapshot (November 6, 2023)",
                         value: "gpt-4-1106-preview",
+                    },
+                    {
+                        label: "GPT-4 Turbo Snapshot (January 25th, 2024)",
+                        value: "gpt-4-0125-preview",
+                    },
+                    {
+                        label: "GPT-4 Turbo",
+                        value: "gpt-4-turbo-preview",
                     },
                     {
                         label: "GPT-4V (GPT-4 with Vision)",
