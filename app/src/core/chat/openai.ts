@@ -159,6 +159,8 @@ export const maxTokensByModel = {
     "gpt-4-0125-preview": 128000,
     "gpt-4-turbo-preview": 128000,
     "gpt-4-vision-preview": 128000,
+    "gpt-4o-2024-05-13": 128000,
+    "gpt-4o": 128000,
     "gpt-4": 8192,
     "gpt-4-0314": 8192,
     "gpt-4-0613": 8192,
