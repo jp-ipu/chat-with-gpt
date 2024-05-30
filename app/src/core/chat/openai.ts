@@ -4,8 +4,8 @@ import SSE from "../utils/sse";
 import { OpenAIMessage, Parameters } from "./types";
 import { backend } from "../backend";
 
-export const defaultModel = 'gpt-3.5-turbo';
-export const titlesModel = 'gpt-3.5-turbo';
+export const defaultModel = 'gpt-4o';
+export const titlesModel = 'gpt-4o';
 
 export function isProxySupported() {
     return !!backend.current?.services?.includes('openai');
@@ -159,6 +159,8 @@ export const maxTokensByModel = {
     "gpt-4-0125-preview": 128000,
     "gpt-4-turbo-preview": 128000,
     "gpt-4-vision-preview": 128000,
+    "gpt-4o-2024-05-13": 128000,
+    "gpt-4o": 128000,
     "gpt-4": 8192,
     "gpt-4-0314": 8192,
     "gpt-4-0613": 8192,

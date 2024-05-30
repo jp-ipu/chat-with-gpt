@@ -29,7 +29,15 @@ export const parameterOptions: OptionGroup = {
                 ),
                 options: [
                     {
-                        label: "GPT-3.5 Turbo (default)",
+                        label: "GPT-4o (default)",
+                        value: "gpt-4o",
+                    },
+                    {
+                        label: "GPT-4o Snapshop (May 13, 2024)",
+                        value: "gpt-4o-2024-05-13",
+                    },
+                    {
+                        label: "GPT-3.5 Turbo",
                         value: "gpt-3.5-turbo",
                     },
                     {
