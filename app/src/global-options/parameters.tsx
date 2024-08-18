@@ -29,76 +29,24 @@ export const parameterOptions: OptionGroup = {
                 ),
                 options: [
                     {
-                        label: "GPT-4o (default)",
-                        value: "gpt-4o",
+                        label: "gpt-4o-mini (snapshot: 2024-07-18) [default]",
+                        value: "gpt-4o-mini-2024-07-18",
                     },
                     {
-                        label: "GPT-4o Snapshop (May 13, 2024)",
+                        label: "gpt-4o-mini (latest version)",
+                        value: "gpt-4o-mini",
+                    },
+                    {
+                        label: "gpt-4o (snapshot: 2024-05-13)",
                         value: "gpt-4o-2024-05-13",
                     },
                     {
-                        label: "GPT-3.5 Turbo",
-                        value: "gpt-3.5-turbo",
+                        label: "gpt-4o (snapshot: 2024-08-06)",
+                        value: "gpt-4o-2024-08-06",
                     },
                     {
-                        label: "GPT-3.5 Turbo Snapshot (June 13, 2023)",
-                        value: "gpt-3.5-turbo-0613",
-                    },
-                    {
-                        label: "GPT-3.5 Turbo Snapshot (November 6, 2023)",
-                        value: "gpt-3.5-turbo-1106",
-                    },
-                    {
-                        label: "GPT-3.5 Turbo Snapshot (January 25, 2024)",
-                        value: "gpt-3.5-turbo-0125",
-                    },
-                    {
-                        label: "GPT-3.5 Turbo 16k",
-                        value: "gpt-3.5-turbo-16k",
-                    },
-                    {
-                        label: "GPT-3.5 Turbo 16k Snapshot (June 13, 2023)",
-                        value: "gpt-3.5-turbo-16k-0613",
-                    },
-                    {
-                        label: "GPT-4 Turbo Snapshot (November 6, 2023)",
-                        value: "gpt-4-1106-preview",
-                    },
-                    {
-                        label: "GPT-4 Turbo Snapshot (January 25th, 2024)",
-                        value: "gpt-4-0125-preview",
-                    },
-                    {
-                        label: "GPT-4 Turbo",
-                        value: "gpt-4-turbo-preview",
-                    },
-                    {
-                        label: "GPT-4V (GPT-4 with Vision)",
-                        value: "gpt-4-vision-preview",
-                    },
-                    {
-                        label: "GPT-4",
-                        value: "gpt-4",
-                    },
-                    {
-                        label: "GPT-4 Snapshot (March 14, 2023)",
-                        value: "gpt-4-0314",
-                    },
-                    {
-                        label: "GPT-4 Snapshot (June 13, 2023)",
-                        value: "gpt-4-0613",
-                    },
-                    {
-                        label: "GPT-4 32k (requires invite)",
-                        value: "gpt-4-32k",
-                    },
-                    {
-                        label: "GPT-4 32k June Snapshot (required invite)",
-                        value: "gpt-4-32k-0613",
-                    },
-                    {
-                        label: "GPT-4 32k March Snapshot (required invite)",
-                        value: "gpt-4-32k-0314",
+                        label: "gpt-4o (latest version)",
+                        value: "gpt-4o",
                     },
                 ],
             }),
